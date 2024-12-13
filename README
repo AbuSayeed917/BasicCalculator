@@ -1,0 +1,111 @@
+Calculator Application
+
+Overview
+
+This is a modern calculator application built with Python, utilizing customtkinter for the GUI. The app is packaged to run as a standalone executable, and this guide explains how to set up, run, and use the application.
+
+Features
+
+Perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+
+Modern graphical user interface (GUI) with customtkinter.
+
+Packaged for easy use on macOS (or other platforms).
+
+How to Use This Application
+
+Option 1: Run Locally from Source Code
+
+Clone the Repository
+
+Ensure Git is installed on your computer.
+
+Open your terminal and run the following command to clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+
+Replace your-username and your-repo-name with your actual GitHub username and repository name.
+
+Navigate to the Project Folder
+
+cd your-repo-name
+
+Install Dependencies
+
+Install Python (version 3.8 or later).
+
+Install required Python libraries by running:
+
+pip install customtkinter
+
+Run the Application
+
+Execute the application using:
+
+python3 main.py
+
+The calculator window will appear. You can start using it to perform calculations.
+
+Option 2: Run from Standalone Executable
+
+If you don’t have Python installed or prefer not to deal with dependencies, you can use the pre-built executable (for macOS):
+
+Download the Executable
+
+Go to the Releases section of the repository: Releases.
+
+Download the latest version of the app (e.g., CalculatorApp-macOS.zip).
+
+Extract the ZIP File
+
+Locate the downloaded ZIP file.
+
+Extract it to a folder of your choice.
+
+Run the Application
+
+Navigate to the extracted folder.
+
+Double-click the main file to launch the calculator.
+
+Using the Calculator
+
+Enter Numbers:
+
+Input numbers into the fields provided.
+
+Perform Operations:
+
+Click the appropriate button (Add, Subtract, Multiply, Divide) to perform calculations.
+
+View Results:
+
+The result will be displayed in the result area below the buttons.
+
+Troubleshooting
+
+Error: "ModuleNotFoundError: No module named 'customtkinter'"
+
+This means the required library customtkinter is not installed.
+
+Run the following command to install it:
+
+pip install customtkinter
+
+Error: "Permission Denied" on macOS
+
+macOS might block the app since it’s not signed by Apple.
+
+To resolve this:
+
+Right-click the main executable.
+
+Select Open and confirm any warnings.
+
+How to Contribute
+
+Fork the repository.
+
+Make your changes.
+
+Submit a pull request with a detailed explanation of the changes.
